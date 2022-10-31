@@ -3,9 +3,8 @@
 <suite name="Suite">
   <test thread-count="1" name="Test">
     <classes>
-      <!--class name="testClass.VerifyPage1"/-->
-      <class name="testClass.VerifyPage2"/>
-     
+      <!--class name=//button[@class='btn btn-feedback-control btn-feedback-custom']"testClass.VerifyPage1"/-->
+      <class name="testClass.VerifyPage2"/>   
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

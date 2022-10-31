@@ -40,26 +40,43 @@ public class VerifyPage2 extends BaseClass
 		
 		ThirdPage tp = new ThirdPage(driver);
 		tp.clickToProceed();
+		System.out.println("Clicked on Proceed");
 		tp.stream();
+		System.out.println("Selected Stream");
 		tp.course();
+		System.out.println("Selected Course");
 		tp.campusPreference();
+		System.out.println("Selected Campus Preference");
 		tp.preferrenceDate();
+		System.out.println("Selected Preference Date");
 		tp.dateOfBirth();
+		System.out.println("Selected Date of Birth");
 		tp.bloodGroup();
+		System.out.println("Selected BloodGroup");
 		tp.gender();
+		System.out.println("Selected Gender");
 		tp.category();
+		System.out.println("Selected Category");
 		tp.religion();
+		System.out.println("Selected Religion");
 		tp.nationality();
+		System.out.println("Selected Nationality");
 		tp.alternateMobileNo();
+		System.out.println("Entered Alternate Mobile No.");
 		tp.alternateEmailAddress();
+		System.out.println("Entered Alternate Email Address");
 		tp.passportNumber();
+		System.out.println("Entered Passport No.");
 		tp.passportDateofIssue();
+		System.out.println("Selected Passport Date of Issue");
 		tp.passportExpiryDate();
+		System.out.println("Selected Passport Expiry Date ");
 		tp.domicile();
+		System.out.println("Selected Domicile");
 		tp.citizenship();
+		System.out.println("Selected Citizenship");
 		tp.caste();
-		
-		
+		System.out.println("Selected Caste");	
 	}
 	
 }

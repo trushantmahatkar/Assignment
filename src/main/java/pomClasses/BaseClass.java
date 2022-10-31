@@ -1,9 +1,12 @@
 package pomClasses;
 
+import static org.testng.Assert.assertEquals;
+
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 
 public class BaseClass 
@@ -28,6 +31,8 @@ public class BaseClass
 		
 		String actualURL = driver.getCurrentUrl();
 		
+		Assert.assertEquals(actualURL,expectedURL);
+		
 		if(actualURL.equalsIgnoreCase(expectedURL))
 		{
 			System.out.println("Correct URL is Opened");
@@ -36,7 +41,6 @@ public class BaseClass
 		{
 			System.out.println("URL is Wrong");
 		}
-		
 		
 		FirstPage fp = new FirstPage(driver);
 		
